@@ -1,0 +1,691 @@
+# --- XPTV 直连规则 ---
+# 核心服务（XPTV Helper）
+HOST-SUFFIX,xptvhelper.link
+
+# XPTV主站（InfuseKu / XPTV）
+HOST,infuseku.xyz
+
+# iCloud同步（Apple iCloud）
+HOST,gateway.icloud.com
+HOST,metrics.icloud.com
+
+# XPTV封面来源（豆瓣 / TMDB）
+HOST-SUFFIX,doubanio.com
+HOST,image.tmdb.org
+
+# 弹幕（弹弹Play / DandanPlay）
+HOST,dandanplay.net
+
+
+# --- 网盘官方服务 ---
+# 阿里云盘（AliyunDrive）
+HOST-SUFFIX,aliyundrive.com
+HOST-SUFFIX,voicehub.top
+
+# 夸克网盘（Quark）
+HOST-SUFFIX,quark.cn
+
+# 天翼云盘（China Telecom）
+HOST-SUFFIX,189.cn
+HOST-SUFFIX,ctyunxs.cn
+
+# 115网盘
+HOST-SUFFIX,115.com
+
+# UC网盘 / UC
+HOST-SUFFIX,uc.cn
+
+# 小雅（Xiaoya）
+HOST-SUFFIX,xiaoya.pro
+
+
+# --- 网盘源 (合并更新版) ---
+# 玩偶哥哥 (Wogg)
+HOST-KEYWORD,wogg
+HOST-SUFFIX,wogg.one
+HOST-SUFFIX,wogg.net
+HOST-SUFFIX,wogg.lol
+HOST-SUFFIX,wogg.xxooo.cf
+
+# 木偶哥哥 (Muou)
+HOST-SUFFIX,mogg.top
+HOST-SUFFIX,muou.asia
+HOST-SUFFIX,muou.site
+HOST-SUFFIX,666291.xyz
+
+# 小米 (Mihdr)
+HOST-SUFFIX,mihdr.top
+HOST-SUFFIX,miqk.cc
+
+# 肥猫 (Feimao)
+HOST-SUFFIX,feimaoai.site
+HOST-SUFFIX,feimao666.fun
+HOST-SUFFIX,feimao888.fun
+
+# 多多 (YYDS)
+HOST-SUFFIX,yydsys.top
+HOST-SUFFIX,yydsys.cc
+HOST-SUFFIX,214521.xyz
+
+# 二小 (Erxiao)
+HOST-SUFFIX,2xiaopan.fun
+HOST-SUFFIX,erxiaofn.click
+HOST-SUFFIX,erxiaofn.site
+HOST,xiaoer.5568.eu.org
+
+# 小盒万物 (Xiaohe)
+HOST-SUFFIX,xhww.net
+
+# 雷鲸
+HOST-SUFFIX,leijing.xyz
+HOST-SUFFIX,leijing1.com
+
+# 校长
+HOST-SUFFIX,xzys.fun
+
+# 蜡笔
+HOST-SUFFIX,duopan.fun
+
+# 南风
+HOST-SUFFIX,nanf.cc
+
+# 欧歌
+HOST,woog.nxog.eu.org
+
+# 云盘吧
+HOST,yunpan8.cc
+
+# 至臻
+HOST-SUFFIX,zhizhenpan.fun
+
+# 小萨
+HOST-SUFFIX,xsayang.fun
+
+
+# --- 直播/短视频相关 ---
+# B站视频CDN（bilibili）
+HOST-SUFFIX,bilivideo.com
+
+# slink（短链/跳转服务）
+HOST,slink.ltd
+
+# 抖音CDN（Douyin）
+HOST-SUFFIX,douyincdn.com
+HOST-SUFFIX,douyinpic.com
+
+# 斗鱼CDN（Douyu）
+HOST-SUFFIX,douyucdn.cn
+HOST-SUFFIX,douyucdn2.cn
+
+# 虎牙直播（Huya）
+HOST-SUFFIX,huya.com
+
+# 微软静态资源（Microsoft / msstatic）
+HOST-SUFFIX,msstatic.com
+
+# LemonLive（deno）
+HOST,lemonlive.deno.dev
+
+
+# --- VOD影视源 ---
+# 低端影视（DDYS）
+HOST-SUFFIX,ddys.pro
+
+# AGE动漫
+HOST-SUFFIX,agedm.org
+
+# ギリギリ (Girigiri)
+HOST-SUFFIX,girigirilove.com
+HOST,love.girigirilove.com
+HOST,m3u8.girigirilove.com
+
+# 瓜子（影视源）
+HOST,api.9cec79d.com
+HOST,wjm.kemfsj.com
+
+# 4k-av
+HOST-SUFFIX,4k-av.com
+
+# 囧动漫（相关资源/封面/CDN）
+HOST-SUFFIX,fanchenstatic.com
+HOST,i0.hdslb.com
+HOST-SUFFIX,bsgslb.cn
+HOST-SUFFIX,bytetos.com
+HOST-SUFFIX,douyinvod.com
+HOST-SUFFIX,byteimg.com
+HOST-SUFFIX,xhscdn.com
+HOST-SUFFIX,bdxiguastatic.com
+HOST-SUFFIX,zshtys888.com
+IP-CIDR,43.142.232.217/32,no-resolve
+IP-CIDR,110.41.171.181/32,no-resolve
+IP-CIDR,49.235.143.104/32,no-resolve
+
+
+# libvio
+HOST-SUFFIX,libvio.cc
+HOST-SUFFIX,mcloud.139.com
+HOST-SUFFIX,libvio.cloud
+
+# anfuns
+HOST-SUFFIX,anfuns.org
+HOST-SUFFIX,bytegiftia.top
+HOST-SUFFIX,lenovo.com.cn
+HOST,image.zhihuishu.com
+HOST,presale.111.com.cn
+
+# hdmoli / 大莫里
+HOST-SUFFIX,hdmoli.pro
+HOST-SUFFIX,damoli.pro
+
+# 哔嘀影视
+HOST-SUFFIX,xlys01.com
+
+# 烧火影视
+HOST-SUFFIX,saohuo.tv
+HOST-SUFFIX,video.iqiyi.com
+HOST-SUFFIX,qitu-zuida.com
+HOST,om.tc.qq.com
+HOST-SUFFIX,ibytedtos.com
+HOST-SUFFIX,1ljx.com
+HOST-SUFFIX,smtcdns.com
+HOST,cme-video.vod-qcloud.com
+HOST,hhjx.hhplayer.com
+
+# NO視頻（去广告）
+HOST-SUFFIX,novipnoad.net
+
+# 韩剧看看 / thekutv / thehanju
+HOST-SUFFIX,hanjukankan.com
+HOST-SUFFIX,thekutv.com
+HOST-SUFFIX,thehanju.com
+HOST-SUFFIX,vvddoo.com
+
+# 星芽（影视源）
+HOST,app.whjzjx.cn
+HOST,u.shytkjgs.com
+HOST,qiniu.rongjuwh.cn
+HOST-SUFFIX,qnqcdn.net
+HOST-SUFFIX,xingya.com.cn
+IP-CIDR,218.22.23.189/32,no-resolve
+IP-CIDR,117.68.35.135/32,no-resolve
+IP-CIDR,218.22.23.229/32,no-resolve
+IP-CIDR,117.68.35.139/32,no-resolve
+
+# 小苹果（影视源）
+IP-CIDR,163.123.192.184/32,no-resolve
+IP-CIDR,148.59.74.50/32,no-resolve
+IP-CIDR,205.178.182.17/32,no-resolve
+IP-CIDR,163.123.192.169/32,no-resolve
+IP-CIDR,163.123.192.68/32,no-resolve
+IP-CIDR,163.123.192.182/32,no-resolve
+IP-CIDR,205.178.182.8/32,no-resolve
+IP-CIDR,163.123.192.108/32,no-resolve
+IP-CIDR,163.123.192.29/32,no-resolve
+IP-CIDR,205.178.182.52/32,no-resolve
+IP-CIDR,163.123.192.17/32,no-resolve
+HOST,c.xpgtv.net
+
+# 厂长资源（czzy）
+HOST-SUFFIX,czzyvideo.com
+HOST,qimgs.qunarzz.com
+HOST,lf16-fe.resso.me
+HOST-SUFFIX,akamaized.net
+HOST-SUFFIX,czzy.fun
+HOST-SUFFIX,czys.art
+HOST-SUFFIX,larksuitecdn.com
+HOST,dc.xhscdn.com
+HOST,mdn.alipayobjects.com
+
+# 天天（影视源）
+HOST-SUFFIX,ysdqjs.cn
+
+# 在线之家
+HOST-SUFFIX,zxzja.com
+
+# 素白白
+HOST-SUFFIX,subaibaiys.com
+
+
+# --- CMS采集源 ---
+# 360资源
+HOST,360zy.com
+HOST,vod.lyhuicheng.com
+
+# 非凡资源（ffzy）
+HOST-KEYWORD,ffzy
+
+# 墨斗资源（mdzy）
+HOST,www.mdzyapi.com
+
+# 黑木耳（heimuer）
+HOST-SUFFIX,heimuer.tv
+HOST-SUFFIX,heimuer.xyz
+
+# 动态播放域名 (部分CMS)
+HOST,2bzfvku2xwu7.com
+HOST,n9ihkvv1ytjr.com
+HOST,0cicgw0mte7y.com
+HOST,r5oa1oqwh6gz.com
+HOST,knfuzimvbmwr.com
+HOST,ucul8pjt6v6h.com
+HOST,5pvheva17etb.com
+HOST,k6qgunhk9wuk.com
+HOST,0uxzzy8thov3.com
+HOST,5dagx9am9sai.com
+HOST,omgyesityyhl.com
+HOST,eucjzvub6vhr.com
+HOST,tficf2xx0qxr.com
+HOST,zqmdvefdijjx.com
+HOST,jzuqfavoibww.com
+HOST,in1eab44tnda.com
+HOST,nfysfaemv1m2.com
+HOST,rfjyb3bu5j0r.com
+HOST,wjmgijixqcbc.com
+HOST,jvgcazuedspp.com
+HOST,fmxjkp6ekzcg.com
+HOST,zea35s3nhdbn.com
+HOST,zehnaxihujfi.com
+HOST,0nzuqy0k3c35.com
+HOST,yvocwep63nev.com
+HOST,navogkbbnjl4.com
+HOST,xgwr4phkkafo.com
+HOST,om43531gxybq.com
+HOST,3lky1u69bdx2.com
+HOST,438pnr4dyywt.com
+HOST,mdghhsgc4iiy.com
+HOST,m3u8.hmrvideo.com
+
+# 华为吧（资源站）
+HOST-SUFFIX,hw8.live
+HOST,selfcdn.simaguo.com
+HOST,m3u.nikanba.live
+
+# 腐剧（资源站）
+HOST-SUFFIX,fuju2024.cc
+HOST-SUFFIX,yishihui.com
+
+# 金鹰资源（jinyingzy）
+HOST,image.jinyingimage.com
+HOST,jinyingzy.com
+HOST,c.baisiweiting.com
+HOST,hd.ijycnd.com
+
+# OK资源（okzy）
+HOST-SUFFIX,okzy.xyz
+HOST-SUFFIX,wakdj.com
+HOST-SUFFIX,noop44.com
+HOST-SUFFIX,bxgbnet.com
+HOST-SUFFIX,xxya88.com
+
+# 宝片（bbff）
+HOST,zpsps.com
+HOST-KEYWORD,bbffvip.com
+HOST-KEYWORD,rrcdnbf
+
+# 小黄人资源
+HOST-SUFFIX,xiaohuangrentv.com
+HOST-KEYWORD,.jisu.com
+
+# 牛牛资源
+HOST,pic.niuniuzy.info
+HOST-SUFFIX,qrstt.com
+HOST-SUFFIX,stuuvwy.com
+HOST-SUFFIX,xingchongwang.com
+
+# 丫丫资源
+HOST-SUFFIX,uvvv77.com
+HOST-SUFFIX,jklnopq.com
+HOST-SUFFIX,yayazy.net
+HOST-SUFFIX,qdhdcate.com
+
+# 影图资源
+HOST,cj.vodimg.top
+HOST-SUFFIX,ghij11.com
+HOST-SUFFIX,tlkqc.com
+HOST,pic.picturecdn.com
+HOST-SUFFIX,xaab57.com
+
+# U酷资源（uku）
+HOST-SUFFIX,ukuapi.com
+HOST-KEYWORD,ukzy.ukubf
+
+# 豪华资源（hhzy）
+HOST,hhzyapi.com
+HOST-SUFFIX,hhuus.com
+HOST-SUFFIX,hhwenjian.com
+
+# 极速资源（jszy）
+HOST,jszyapi.com
+
+# 索尼资源（snzy）
+HOST,snzypic.vip
+HOST-KEYWORD,.hiij
+HOST-SUFFIX,nopqq.vip
+HOST-SUFFIX,uvwwx.vip
+HOST-SUFFIX,pqqrs.vip
+HOST-SUFFIX,qrssv.com
+
+# ikun资源
+HOST-SUFFIX,imgikzy.com
+HOST,kkzycdn.com
+HOST,bfikuncdn.com
+
+# 量子资源（lzi）
+HOST,cj.lziapi.com
+HOST,img.lzzyimg.com
+HOST-KEYWORD,v.cdnlz
+
+# 暴风资源（bfzy）
+HOST-SUFFIX,bfzypic.com
+HOST,bfzyapi.com
+HOST-SUFFIX,bfllvip.com
+
+# 红牛资源
+HOST-SUFFIX,hongniuzy2.com
+HOST,hn.bfvvs.com
+HOST,hnts.ymuuy.com
+
+# 快车资源（kczy）
+HOST,caijl.kczyapi.com
+HOST-SUFFIX,fghjklm.com
+HOST-SUFFIX,ijkklmn.com
+HOST-SUFFIX,longshengtea.com
+HOST-SUFFIX,stuuv.vip
+
+# 闪电资源（sdzy）
+HOST,sdzyapi.com
+HOST-SUFFIX,qrrs56.com
+HOST-SUFFIX,wwxy0.com
+HOST-SUFFIX,fentvoss.com
+
+# 樱花资源（yhzy）
+HOST,m3u8.apiyhzy.com
+HOST-SUFFIX,ijkkl.vip
+HOST-SUFFIX,abcce.vip
+HOST-SUFFIX,mmnn34.com
+HOST-SUFFIX,vwxx78.com
+HOST-SUFFIX,stttu.vip
+HOST-SUFFIX,tuvvv.vip
+HOST-SUFFIX,ijkmnno.com
+HOST-SUFFIX,deefg.vip
+HOST-SUFFIX,lmnoprs.com
+HOST-KEYWORD,shes
+HOST-SUFFIX,yhzybf.com
+HOST-SUFFIX,wgslsw.com
+HOST,pic.jegms.com
+
+# 卧龙资源（wolong）
+HOST-SUFFIX,wolongzyw.com
+HOST-SUFFIX,wlongimg.com
+HOST-KEYWORD,cdn.wls
+HOST-KEYWORD,cdn.wlcdn
+
+# 虎牙相关（huya）
+HOST-KEYWORD,.huya
+
+# 飘零资源
+HOST,p2100.net
+
+# 无尽资源
+HOST,api.wujinapi.com
+HOST-SUFFIX,stuv67.com
+HOST-SUFFIX,hjjk22.com
+HOST-SUFFIX,jkkl23.com
+HOST,v5.xyaa88.com
+
+# 速博资源（subo）
+HOST-KEYWORD,subo
+HOST-SUFFIX,subokk.com
+HOST-SUFFIX,xlzyd.com
+
+# 魔都资源（modu）
+HOST,caiji.moduapi.cc
+HOST,www.mdzypic.com
+HOST-KEYWORD,play.modujx
+
+# 最大资源（zuid）
+HOST-SUFFIX,zuidapic.com
+HOST-SUFFIX,zuidazy.me
+HOST-SUFFIX,daayee.com
+
+# 新浪图片/资源
+HOST,xinlangtupian.com
+HOST,play.xluuss.com
+
+# 八戒资源
+HOST-SUFFIX,monidai.com
+HOST-SUFFIX,hdslb.pro
+
+
+# --- XPAV源 ---
+# Hanime1 下载域名
+HOST,vdownload.hembed.com
+
+# MISSAV
+HOST,surrit.com
+
+# SupJav-ST / Streamtape
+HOST,streamtape.com
+HOST-SUFFIX,tapecontent.net
+
+
+# --- CMS其他杂项 ---
+# 森林资源
+HOST,slapibf.com
+HOST,fmtu.sltututu.com
+HOST-SUFFIX,bbffsl.com
+
+# 探探资源
+HOST,apittzy.com
+HOST,vod1.ttbfp2.com
+
+# 奥斯卡资源
+HOST,aosikazy.com
+HOST,bfaskcdn.com
+HOST,uqetyzxa.com
+
+# 老鸭资源
+HOST,api.apilyzy.com
+HOST,img.lytuchuang91.com
+HOST-SUFFIX,laoyacdn.com
+
+# 91麻豆
+HOST,666529.xyz
+HOST,91md.me
+HOST-SUFFIX,97img.com
+HOST,cctv123456.com
+HOST-SUFFIX,cdn2020.com
+
+# 易看资源
+HOST,img.yikanimg.top
+HOST,api.yikanapi.com
+HOST,v.ykv3.com
+
+# 番号资源
+HOST,fm.fhpicpic.com
+HOST,fhapi9.com
+HOST,v2024.fhbbff.com
+
+# 鲨鱼资源
+HOST,sycdn.ddljsytt.com
+HOST,v2024.sysybf.com
+
+# Alvin资源
+HOST,fm.lbpicpic.com
+HOST,lbapiby.com
+HOST,vip3.lbbf9.com
+
+# 黄瓜资源
+HOST,player.hgplayer00.com
+HOST,img.hgimg00.com
+
+# 玉兔资源
+HOST,sbzytpimg2.com
+HOST,apiyutu.com
+HOST,yutubf.lsbbf3.com
+
+# 辣椒资源
+HOST-SUFFIX,newljlj.com
+HOST,ljcdn.ddljsytt.com
+
+# 精品资源
+HOST,jinpinxm.com
+HOST-KEYWORD,jingpinx.com
+HOST,05hao.top
+
+# 草榴资源（caoliu）
+HOST,www.caoliuzyw.com
+HOST-SUFFIX,comodoca.com
+HOST-SUFFIX,usertrust.com
+HOST-SUFFIX,sectigo.com
+HOST-SUFFIX,caoliuzywimg.com
+HOST,player.cl9987.com
+
+# 老色逼资源
+HOST,apilsbzy1.com
+
+
+# --- 杂七杂八的网站封面 ---
+# 快车资源/采集站封面图床（疑似资源站）
+HOST,img.kuaichezy.net
+
+# 腾讯系图片CDN（QPic）
+HOST,puui.qpic.cn
+
+# 极速图片/图床（资源站常用）
+HOST-SUFFIX,jisuimage.com
+
+# 字节跳动图床（今日头条/西瓜/抖音相关）
+HOST-SUFFIX,toutiaoimg.com
+
+# 影视资源站封面图（YZZY Images）
+HOST-SUFFIX,yzzyimages.com
+
+# 资源站图床（未知站点封面域名）
+HOST,hhmage.com
+
+# 企业微信/WeCom 图片CDN（qpic）
+HOST,wework.qpic.cn
+
+# 百度静态资源（bdstatic）
+HOST,pic.rmb.bdstatic.com
+
+# 阿里系CDN（淘宝/天猫/阿里静态资源）
+HOST-SUFFIX,alicdn.com
+
+# 优酷/阿里文娱图片CDN（ykimg）
+HOST-SUFFIX,ykimg.com
+
+# 网易系资源域名（新闻/云音乐等）
+HOST-SUFFIX,netease.com
+
+# 腾讯静态资源/CDN（QQ/腾讯视频等）
+HOST-SUFFIX,gtimg.cn
+
+# 美团静态资源/CDN
+HOST-SUFFIX,meituan.net
+
+# 支付宝/蚂蚁静态资源CDN（mdn）
+HOST,mdn.alipay.com
+
+# 新浪微博图床（sinaimg）
+HOST,fc.sinaimg.cn
+
+# 萌娘百科图片站
+HOST,img.moegirl.org.cn
+
+# 爱奇艺封面/图片CDN
+HOST,pic8.iqiyipic.com
+
+# 奇虎360图片CDN（qhimg）
+HOST,p0.qhimg.com
+
+# 爱奇艺图片域名（全站）
+HOST-SUFFIX,iqiyipic.com
+
+# 资源站接口/封面（未知来源）
+HOST,api.zaqohu.com
+
+# 资源站图片域名（随机图床）
+HOST,images.67c6c7a.com
+
+# 58系图片CDN（疑似 58cdn）
+HOST,pic7.58cdn.com.cn
+
+# 百度智能云 BOS 对象存储（BCE）
+HOST,help-ol.bj.bcebos.com
+
+# Loli 图床（loli.net）
+HOST-SUFFIX,loli.net
+
+# 京东图片CDN
+HOST-SUFFIX,360buyimg.com
+
+# 影视资源站封面图（imgyzzy）
+HOST,pic1.imgyzzy.com
+
+# 搜狗相关接口/下载域名
+HOST,get.sogou.com
+
+# AI平台接口域名（bigmodel.cn，可能为大模型服务）
+HOST,open.bigmodel.cn
+
+# 腾讯系封面/视频封面图（qpic）
+HOST,vcover-vt-pic.puui.qpic.cn
+
+# 七陌（7moor）在线客服资源域名
+HOST,fs-im-kefu.7moor-fs1.com
+
+# 资源站图片域名（未知图床）
+HOST,img.image8899.net
+
+# PicGo 图床相关域名（可能）
+HOST,img.picgo.net
+
+# 影视资源站封面图（yzzyimages 子域）
+HOST,pic3.yzzyimages.com
+
+# 随机域名图床/验证跳转（未知）
+HOST,647bc185.szrtcpa.com
+
+# 资源站图片域名（未知）
+HOST,img.98ha.com
+
+# 长亭科技 Chaitin 反爬/验证挑战页（challenge）
+HOST,challenge.rivers.chaitin.cn
+
+# 资源站图片域名（未知图床）
+HOST,image.maimn.com
+
+# 百度主域（可能用于图片/跳转/接口）
+HOST-SUFFIX,baidu.com
+
+# 资源站图片域名（量子/类似资源站封面）
+HOST,img.liangzipic.com
+
+# 喜马拉雅图片CDN（xmcdn）
+HOST,imagev2.xmcdn.com
+
+# 图床（imgdb.cn）
+HOST,pic.imgdb.cn
+
+# 影视资源站封面（yzzyimg online 子域）
+HOST,pic3.yzzyimg.online
+
+# 新浪微博图床（sinaimg）
+HOST,wx4.sinaimg.cn
+
+# 极速图片（子域）
+HOST,img.jisuimage.com
+
+# 资源站封面图（无尽/相关）
+HOST,pic.wujinpp.com
+
+# 速博/资源站封面图（subo image）
+HOST,suboimage.com
+
+# 非凡资源封面图（FFZY）
+HOST,img.ffzy888.com
+
+# 量子资源封面图（LZZY）
+HOST,img.lzzyimg.com
