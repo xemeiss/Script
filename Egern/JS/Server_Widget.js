@@ -22,29 +22,23 @@ export default async function (ctx) {
   try {
     const { host, username, password, privateKey, port } = ctx.env;
 
-    // 🛠️ 暴力修复私钥格式开始
     let finalKey = privateKey;
     if (privateKey && typeof privateKey === 'string') {
         const raw = privateKey.trim();
-        // 匹配头尾标识符
         const headerMatch = raw.match(/-----BEGIN [A-Z ]+-----/);
         const footerMatch = raw.match(/-----END [A-Z ]+-----/);
         
         if (headerMatch && footerMatch) {
             const header = headerMatch[0];
             const footer = footerMatch[0];
-            // 提取中间正文并剔除所有空格、换行
             let body = raw.substring(raw.indexOf(header) + header.length, raw.indexOf(footer));
             body = body.replace(/\s+/g, '');
-            // 每64字符强行换行组装
             const lines = body.match(/.{1,64}/g) || [];
             finalKey = `${header}\n${lines.join('\n')}\n${footer}`;
         } else {
-            // 处理带转义符 \n 的情况
             finalKey = raw.replace(/\\n/g, '\n');
         }
     }
-    // 🛠️ 暴力修复私钥格式结束
 
     const session = await ctx.ssh.connect({
       host, port: Number(port || 22), username,
